@@ -1,0 +1,34 @@
+.productTextHolder .sizeList [type="checkbox"]:checked + .fake-input:before {
+    opacity: 1;
+  }
+  
+  .productTextHolder .sizeList input:disabled + .fake-input,
+  .productTextHolder .sizeList input:disabled ~ .fake-label {
+    opacity: .5;
+  }
+  
+  .productTextHolder .colorList {
+    font-size: 15px;
+    line-height: 17px;
+    color: #444444;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .productTextHolder .colorList button {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+  
+  .productTextHolder .colorList .Red {
+    background: #ec2026;
+  }
+  
+  .productTextHolder .colorList .Green {
+    background: green;
+  }
+  
+  .productTextHolder .colorList .Blue {
+    background: blue;
+  }
